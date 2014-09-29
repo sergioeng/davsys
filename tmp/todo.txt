@@ -1,0 +1,51 @@
+(1) <<OK>> Insertion data script
+    Test data
+
+(2) <<(OK>> Record how many times each question was asked for a given user:
+
+This is to mimic what we do for the app when we keep track of how many times each question is asked.   
+This is done to prevent the same questions from appearing every time.   
+The query to the database is done by sorting the questions by the lowest count.  
+You will need to modify the new table I create for storing user questions counts.  
+
+This table will get a new entry every time a user gets asked a question they have never been asked before. 
+And it will update a row every time they are asked a question that has already been asked before. 
+This table information is used for determining what questions to ask the user. 
+
+The last problem really Lead to a 4th issue for you to work on..  Which is picking questions based on their question count history. 
+That is a bit more complicated and I would like to go over that with you tonight.
+
+(3) <<OK>> Before loading the next question either
+    a - display an alert saying the next question is being loaded
+    b - greyout the "continue" button
+    
+(4) <<OK>> Add reference to the ResultsPage
+
+(5) <<OK>> Remove de grayes
+(6) <<OK>> Space for the continue button
+
+(7) <<OK>> Button to choose how many question to the same as the year
+(8) <<OK>> Strange characters
+(9) <<OK>> DAtabase problem for my VIEW
+(10) <<OK>> Some of the answers has the text: "none of above". this answer should eb in the 4th position.
+(11) Get the levels according to the user level
+
+
+grep --color='auto' -i -n above tbltrivia.sql
+
+398:(286, 'What amazed the crowd of international Jews who heard the disciples speaking on Pentecost?', 'each one heard in his own language', 'the disciples were speaking with authority', 'the disciples had tongues of fire above their heads', 'the disciples were healing people', 'Acts 2:6', 4, 0, 1, 0, 0, 0),
+574:(462, 'Because of his wickedness, Jehoram was told by Elijah that he would...', 'Suffer a bowel disease', 'Be eaten by dogs', 'Die while in battle', 'None of the above', '2 Chronicles 21:12-18', 3, 0, 3, 0, 0, 0),
+666:(553, 'What was in the mouth of the dove who returned to Noah after he sent it from the ark?', 'an olive leaf', 'a fig leaf', 'a dry branch', 'None of the above', 'See: Genesis 8:11', 3, 0, 4, 0, 0, 0),
+747:(634, 'Which of these instruments did David say should be used to praise the Lord?', 'all of the above', 'psaltery', 'organs', 'cymbals', 'See: Psalms 150:3-5', 3, 0, 5, 0, 0, 0),
+816:(703, 'According to Matthew, what did the sign say above Christ''s head on the cross?', 'This is Jesus the King of the Jews', 'This is Jesus the Jewish Messiah', 'This is Jesus the King of Israel', 'This is Jesus the Lord over Israel', 'See: Matthew 27:37', 3, 0, 6, 0, 0, 0),
+830:(717, 'Which of the following did Jesus do to heal Bartimaeus?', 'none of the above', 'spit on the ground', 'put mud on his eyes', 'told him to wash in the pool of Siloam', 'See: Mark 10:51-52', 3, 0, 6, 0, 0, 0),
+937:(823, 'How long did the Israelites eat manna?', 'all of the above', 'until they came to the promised land', 'while they wandered in the wilderness', 'for forty years', 'See: Exodus 16:35', 1, 0, 7, 0, 0, 0),
+
+
+
+hostmonster.com
+https://my.hostmonster.com/cgi-bin/cplogin
+user: dodsonso		
+pass: Worp33dad*
+
+

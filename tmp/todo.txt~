@@ -1,0 +1,24 @@
+(1) Insertion data script
+    Test data
+
+(2) Record how many times each question was asked for a given user:
+
+DONE 
+This is to mimic what we do for the app when we keep track of how many times each question is asked.   
+This is done to prevent the same questions from appearing every time.   
+The query to the database is done by sorting the questions by the lowest count.  
+You will need to modify the new table I create for storing user questions counts. 
+DONE 
+
+This table will get a new entry every time a user gets asked a question they have never been asked before. 
+And it will update a row every time they are asked a question that has already been asked before. 
+This table information is used for determining what questions to ask the user. 
+
+The last problem really Lead to a 4th issue for you to work on..  Which is picking questions based on their question count history. 
+That is a bit more complicated and I would like to go over that with you tonight.
+
+(3) Before loading the next question either
+    a - display an alert saying the next question is being loaded
+    b - greyout the "continue" button
+    
+(4) Add reference to the ResultsPage

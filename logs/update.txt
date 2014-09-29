@@ -1,0 +1,22 @@
+--- LOG BEGUN -----------------------
+LOG> username=[sergio]
+LOG> password=[xxxx]
+LOG> nome=[Sergio Ricardo de Oliveira Eng]
+LOG> colaborador_id=[1]
+LOG> query=[UPDATE colaboradores SET 
+username='sergio', 
+password='xxxx', 
+nome='Sergio Ricardo de Oliveira Eng', 
+tipo='S',
+eh_medico='N',
+endereco='Rua Gilberto Cardoso, 230 ap 904',
+cidade='Rio de Janeiro',
+estado='RJ',
+cep='22430-070',
+tel_fix='111111111111',
+tel_cel='21 99603-0963',
+email='sro.eng@gmail.com',
+data_nas='1961-10-09',
+data_alt='2014-08-13' 
+WHERE colaborador_id=1]
+LOG> retorno=1
